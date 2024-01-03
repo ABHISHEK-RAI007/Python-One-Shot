@@ -1,7 +1,11 @@
-n = int(input("Enter n: "))
+n = int(input('Enter n:'))
 
-for i in range(1, n+1): # loop for rows
-    for j in range(1, i+1): # loop for columns
-        print(j, ends="")
+for i in range(1, n+1): # Loop for rows
+    # printing spaces
+    print(" " * (n-i), end="")
+
+    # printing digits
+    for j in range(1, 2 * i):
+        print(j, end="")
     print()
  
