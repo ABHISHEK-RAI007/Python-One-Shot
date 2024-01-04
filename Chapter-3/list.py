@@ -55,3 +55,16 @@ print(fruits)
 
 # fruits[1:3] = "papaya"
 # print(fruits)
+
+#  sorting a list
+
+#  Ascending
+fruits.sort()
+print(fruits)
+
+#  Descending order
+fruits.sort(reverse=True)
+print(fruits)
+
+fruits.reverse()
+print(fruits)
