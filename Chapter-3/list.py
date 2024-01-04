@@ -1,11 +1,11 @@
 fruits = ["apple", "banana", "cherry"] 
-print(fruits)
+# print(fruits)
 
 # checking type of list
-print(type(fruits)) 
+# print(type(fruits)) 
 
 # checking length of list
-print(len(fruits))
+# print(len(fruits))
 
 # checking if an item is present in the list
 if "banana" in fruits:
@@ -13,3 +13,23 @@ if "banana" in fruits:
 
 if "kiwi" not in fruits:
     print("Kiwi is not part of the list")
+
+    fruits = ["apple", "mango", "cherry", "banana",] 
+
+#  indexing in list 
+# print(fruits[1])
+# print(fruits[-3])
+
+# print(fruits[1:3])
+# print(fruits[-3:-1])
+
+#  adding elements to a list
+# fruits.append("kiwi")
+print(fruits)
+
+# fruits.insert(2, "kiwi")
+# print(fruits)
+
+more_fruits = ["kiwi", "papaya"]
+fruits.extend(more_fruits)
+print(fruits)
