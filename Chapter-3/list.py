@@ -30,6 +30,17 @@ print(fruits)
 # fruits.insert(2, "kiwi")
 # print(fruits)
 
-more_fruits = ["kiwi", "papaya"]
-fruits.extend(more_fruits)
-print(fruits)
+# more_fruits = ["kiwi", "papaya"]
+# fruits.extend(more_fruits)
+# print(fruits)
+
+#  removing elements from the list
+# fruits.remove("banana")
+# print(fruits)
+
+# fruits.pop(1)
+# print(fruits)
+
+# fruits.pop()
+# print(fruits)
+
