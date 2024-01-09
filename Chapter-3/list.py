@@ -69,7 +69,7 @@ print(fruits)
 # fruits.reverse()
 # print(fruits)
 
- list comprehension
+#  list comprehension
 new_fruits = [fruit for fruit in fruits if "a" in fruit]
 print(new_fruits)
 
