@@ -79,3 +79,8 @@ print(new_fruits)
 
 new_fruits =  fruits + new_fruits
 print(new_fruits)
+
+#  Nested List
+fruits.insert(2, ["kiwi", "papaya"])
+print(fruits)
+print(fruits[2][0])
