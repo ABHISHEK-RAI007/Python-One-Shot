@@ -1,7 +1,8 @@
 #  Polymorphism
 class Animal:
     def speaks(): #abstract method which will be overwritten 
-        pass
+        # pass
+        print("Generic Noise")
 
 class Dog(Animal):
     def speaks(self):
